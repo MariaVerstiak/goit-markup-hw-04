@@ -186,7 +186,9 @@ address{
 	to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url("../images/people-office.jpg");
     max-width: 1440px;
-    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
 }
 
 .main-page-container{
@@ -218,7 +220,8 @@ address{
     display: block;
     margin: 0 auto;
     text-wrap: nowrap;
-    border: none; 
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .order-button:hover{
@@ -262,6 +265,7 @@ address{
     margin-bottom: 8px;
     display: flex;
     align-items: center;
+    justify-items: center;
 }
 
 .studio-list-title{
@@ -329,7 +333,7 @@ address{
     text-align: center;
 }
 
-.our-team-soc{
+.team-list-soc{
     display: flex;
     gap: 24px;
     align-items: center;
@@ -338,8 +342,18 @@ address{
     max-width: 264px;
 }
 
-.our-team-instagram{
+.team-soc-item{
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
 
+.our-team-instagram, .our-team-twitter, .our-team-facebook, .our-team-linkedin{
+    fill: #f4f4fd;
 }
 
 .portfolio{
@@ -455,9 +469,8 @@ address{
 
 .footer-social-media{
     display: flex;
-    width: 208px;
-    height: 80px;
-    margin-bottom: 16px;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-soc-text{
@@ -467,14 +480,4 @@ address{
     letter-spacing: 0.02em;
     color:  #fff;
     margin-bottom: 16px;
-}
-
-.footer-social-items{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.footer-instagram{
-
 }
