@@ -333,8 +333,13 @@ address{
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: center;
     padding-bottom: 32px;
     max-width: 264px;
+}
+
+.our-team-instagram{
+
 }
 
 .portfolio{
@@ -468,4 +473,8 @@ address{
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.footer-instagram{
+
 }
