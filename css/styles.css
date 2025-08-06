@@ -380,6 +380,8 @@ address{
     max-width: calc((100% - 48px) / 3);
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0%);
 }
 
 .portfolio-text{
@@ -435,9 +437,12 @@ address{
 }
 
 .footer-container{
-    align-content: start;
     display: flex;
     align-items: baseline;
+}
+
+.footer-logo-description{
+    align-content: start;
 }
 
 .footer-logo{
@@ -468,8 +473,6 @@ address{
 }
 
 .footer-social-media{
-    display: flex;
-    align-items: baseline;
     margin-right: 120px;
 }
 
@@ -480,4 +483,24 @@ address{
     letter-spacing: 0.02em;
     color:  #fff;
     margin-bottom: 16px;
+}
+
+.footer-soc-list{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-soc-item{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-soc-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
 }
