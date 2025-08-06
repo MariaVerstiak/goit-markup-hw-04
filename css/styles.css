@@ -307,6 +307,7 @@ address{
 
 .team-list{
     background-color: #FFFFFF;
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4)
 }
@@ -336,10 +337,7 @@ address{
 .team-list-soc{
     display: flex;
     gap: 24px;
-    align-items: center;
     justify-content: center;
-    padding-bottom: 32px;
-    max-width: 264px;
 }
 
 .team-soc-item{
@@ -352,7 +350,7 @@ address{
     justify-content: center; 
 }
 
-.our-team-instagram, .our-team-twitter, .our-team-facebook, .our-team-linkedin{
+.team-soc-icon .our-team-instagram, .our-team-twitter, .our-team-facebook, .our-team-linkedin{
     fill: #f4f4fd;
 }
 
@@ -438,6 +436,8 @@ address{
 
 .footer-container{
     align-content: start;
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-logo{
