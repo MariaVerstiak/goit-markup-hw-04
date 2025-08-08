@@ -537,3 +537,82 @@ address{
     height: 24px;
     fill: #f4f4fd;
 }
+
+.subscribe-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.subscribe-btn{
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+}
+
+.footer-subscribe-icon{
+    fill: #fff;
+}
+
+input:checked + label > span {
+
+}
+
+.order-form-close-btn{
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    cursor: pointer;
+    top: 24;
+    right: 24;
+    border-radius: 100%;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+    fill: #e7e9fc;
+    transition: fill 250ms ease-in-out;
+}
+
+.close-btn-icon{
+    fill: #2e2f42;
+}
+
+.modal-order-form{
+    background-color: rgba(46, 47, 66, 0.4);
+    width: 1440px;
+    max-height: 676px;
+}
+
+.order-form-make{
+    width: 408px;
+    max-height: 584px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+}
+
+.order-form-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    max-width: 360px;
+}
+
+.form-btn-submit{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 24px;
+}
